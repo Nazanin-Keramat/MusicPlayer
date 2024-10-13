@@ -2,7 +2,6 @@
 let musics = [
   {
     name: "I Forgive You",
-    singer: "Sia",
     cover: "./media/Sia - I Forgive You.jpg",
     audio: new Audio("./music/Sia - I Forgive You.mp3"),
     lyric:
@@ -11,7 +10,6 @@ let musics = [
   },
   {
     name: "Show Yourself",
-    singer: "idina Menzel",
     cover: "./media/Show yourself _ idina Menzel.jpeg",
     audio: new Audio("./music/idina_menzel-show_yourself_gratomic.com_.mp3"),
     lyric:
@@ -20,7 +18,6 @@ let musics = [
   },
   {
     name: "Diamond",
-    singer: "rihanna",
     cover: "./media/rihanna-accordi.jpg",
     audio: new Audio("./music/diamonds.mp3"),
     lyric:
@@ -181,48 +178,7 @@ for (let i = 0; i < musics.length; i++) {
   vari2.appendChild(vari6);
   vari6.appendChild(vari5);
   vari3.appendChild(vari4);
-
-  // document.getElementById("playList").innerHTML =
-  //   `
-  //     <h2 id="playListTitle">PlayList</h2>
-  //     <div id="playListDiv" >
-  //         <div id="rounded">
-  //         <img id="imagePlayList" src="./media/calmdown.jpg">
-  //         </div>
-  //         <div id="Titles">
-  //         <h3 id="titleMusicName">Song : </h3>
-  //         <h3 id="playListName">clam</h3>
-  //
-  //         </div>
-  // `;
-
-  // document.getElementById("playListName").innerText =musics[currentMusic].name;
-  // document.getElementById("imagePlayList").src = musics[currentMusic].cover;
 }
-// handel current music
-// setInterval(CurrentPlayed, 1000);
-// function CurrentPlayed(params) {
-//   // let change0 = document.querySelectorAll("#titleMusicName")[saveCur];
-//   // change0.parentElement.className = "played";
-
-//   function CurrentPlayedShow() {
-//     changeMusic("next");
-//     let change0 = document.querySelectorAll("#titleMusicName")[musics[currentMusic].index];
-//     change0.parentElement.className = "played";
-//     console.log(currentMusic);
-//   }
-// //   if (saveCur++) {
-// //     changeMusic("next");
-// //     let change0 = document.querySelectorAll("#titleMusicName")[saveCur];
-// //     change0.parentElement.className = "played";
-// //     console.log(saveCur);
-
-// //   }
-// }
-// let indexAudio = musics[saveCur].index;
-
-// document.querySelector(".next-btn").addEventListener("click", CurrentPlayed);
-// console.log(document.querySelectorAll("#titleMusicName")[saveCur]);
 document.getElementById("playList").addEventListener("click", FuncH);
 
 function FuncH(event) {

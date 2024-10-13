@@ -128,7 +128,8 @@ button {
   padding: 20px 0px;
   flex-flow: column wrap;
   border-radius: 10px;
-  gap: 3px;position: relative;
+  gap: 3px;
+  position: relative;
 }
 #playListTitle {
   color: #ffffff;
@@ -160,7 +161,8 @@ button {
 #Titles {
   display: flex;
   align-items: center;
-  margin-left: 4px; background-color: #ffffff;
+  margin-left: 4px;
+  background-color: #ffffff;
 }
 #playListName {
   color: black;
