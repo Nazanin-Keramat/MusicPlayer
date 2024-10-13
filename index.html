@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/74f94c5fa0.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <title>Music Player</title>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li class=""><i class="fas fa-music" style="font-size: 24px"></i></li>
+        <li class="hover"><a href="#music-name">player</a></li>
+        <li class="hover"><a href="#myButton">lyrics</a></li>
+        <li class="hover"><a href="#playList">Play List</a></li>
+      </ul>
+    </nav>
+    <!-- title music -->
+    <h1 id="music-name">string for the moment</h1>
+    <!-- img song -->
+    <img src="" alt="" id="music-cover" />
+    <input id="music-time" type="range" value="0" />
+    <!-- buttons -->
+    <div id="btns">
+      <i id="pre-btn" class="fas fa-backward"></i>
+      <i id="play-btn" class="fas fa-play"></i>
+      <i id="next-btn" class="fas fa-forward"></i>
+    </div>
+    <button id="myButton">show lyrics</button>
+    <div id="myDiv">
+      <h2 id="lyric-title" class="text-design"></h2>
+      <h5 id="lyric" class="text-design"></h5>
+    </div>
+    <section id="playList">
+      <h2 id="playListTitle">Play List</h2>
+    </section>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
