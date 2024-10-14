@@ -226,5 +226,4 @@ function FuncH(event) {
   h2.innerText = musics[currentMusic].name;
   p.innerText = musics[currentMusic].lyric;
   button.innerText = "Hide Lyric";
-  lyricFunc();
 }
