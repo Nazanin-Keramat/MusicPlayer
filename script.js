@@ -82,12 +82,14 @@ playBtn.addEventListener("click", () => {
 // next and previous music
 nextBtn.addEventListener("click", () => {
   // define function if we give next will go next music
-  changeMusic("next")
+  audio.currentTime = "0";
+  changeMusic("next");
   buttonText();
 });
 preBtn.addEventListener("click", () => {
   // define function if we give next will go previous music
   changeMusic("pre");
+  audio.currentTime = "0";
   buttonText();
 });
 
@@ -141,7 +143,7 @@ function buttonText() {
   p.innerText = musics[currentMusic].lyric;
   button.innerText = "Lyrics";
 }
-buttonText()
+buttonText();
 
 // toggle button for showing the lyrics
 // function lyricFunc() {
