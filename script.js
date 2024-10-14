@@ -83,10 +83,12 @@ playBtn.addEventListener("click", () => {
 nextBtn.addEventListener("click", () => {
   // define function if we give next will go next music
   changeMusic("next");
+  lyricFunc();
 });
 preBtn.addEventListener("click", () => {
   // define function if we give next will go previous music
   changeMusic("pre");
+  lyricFunc();
 });
 
 // when we want to change music firstly should pause after that become at the first of range bar then  our icon should be change and our animation should paused and should make current time 0 after that we say if our entrace is next do this unless do this
@@ -133,6 +135,7 @@ let button = document.getElementById("myButton");
 let x = document.getElementById("myDiv");
 let h2 = document.querySelector("#lyric-title");
 let p = document.querySelector("#lyric");
+console.log(currentMusic);
 h2.innerText = musics[currentMusic].name;
 p.innerText = musics[currentMusic].lyric;
 button.innerText = "Hide Lyric";
@@ -214,7 +217,14 @@ function FuncH(event) {
     range.addEventListener("input", () => {
       audio.currentTime = range.value;
     });
-    console.log(change0.parentElement);
   }
-  currentMusic = saveCur;
+  let button = document.getElementById("myButton");
+  let x = document.getElementById("myDiv");
+  let h2 = document.querySelector("#lyric-title");
+  let p = document.querySelector("#lyric");
+  console.log(currentMusic);
+  h2.innerText = musics[currentMusic].name;
+  p.innerText = musics[currentMusic].lyric;
+  button.innerText = "Hide Lyric";
+  lyricFunc();
 }
