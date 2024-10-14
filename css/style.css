@@ -15,15 +15,15 @@ body {
   user-select: none;
   position: relative;
 }
-li a {
-  width: 60px;
-  color: #ffffff;
-  text-decoration: none;
-  background-color: rgba(252, 252, 252, 0);
-  font-weight: bold;
-}
-li i {
-  background-color: rgba(251, 232, 244, 0);
+/*Navbar*/
+nav {
+  width: 100%;
+  height: 30px;
+  background-color: rgba(251, 232, 244, 0.762);
+  padding: 3px 8px;
+  position: sticky;
+  top: 0;
+  left: 0;
 }
 ul {
   list-style-type: none;
@@ -41,23 +41,25 @@ li {
   background-color: rgba(251, 232, 244, 0);
   height: 25px;
 }
+li a {
+  width: 60px;
+  color: #ffffff;
+  text-decoration: none;
+  background-color: rgba(252, 252, 252, 0);
+  font-weight: bold;
+}
+li i {
+  background-color: rgba(251, 232, 244, 0);
+}
 .hover:hover {
   scale: 1.2;
 }
-nav {
-  width: 100%;
-  height: 30px;
-  background-color: rgba(251, 232, 244, 0.762);
-  padding: 3px 8px;
-  position: sticky;
-  top: 0;
-  left: 0;
-}
-
+/*music player*/
 #music-name {
   font-family: Impact;
   color: rgba(251, 232, 244, 0.762);
-  margin: 40px 0;
+  margin-top: 40px;
+  margin-bottom: 50px;
 }
 #music-cover {
   width: 70%;
@@ -95,17 +97,20 @@ nav {
   color: white;
   cursor: pointer;
 }
-
+/*lyrics*/
 button {
   width: 100%;
   height: 40px;
   background-color: rgba(253, 222, 241, 0.762);
-  margin-top: 50px ;
+  margin-top: 50px;
   border-radius: 1px;
   color: #ffffff;
-  border: 0;font-size: x-large;outline: none;
+  border: 0;
+  font-size: x-large;
+  outline: none;
   margin-bottom: 20px;
 }
+
 .text-design {
   color: #ffffff;
   text-align: center;
@@ -118,6 +123,7 @@ button {
   margin: 10px 0;
   color: rgba(253, 222, 241, 0.762);
 }
+/*play list contains*/
 #playList {
   width: 100%;
   height: auto;
@@ -184,6 +190,7 @@ button {
     box-shadow: 0 0 18px 10px rgba(109, 89, 102, 0.762);
   }
 }
+/*special css for played music - we use this class to show the music has played and has disabled*/
 .played {
   box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
     rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,

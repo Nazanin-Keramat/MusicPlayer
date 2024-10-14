@@ -1,11 +1,12 @@
-// this array contains musics
+// this array contains our musics and its details
 let musics = [
   {
-    name: "I Forgive You",
-    cover: "./media/Sia - I Forgive You.jpg",
-    audio: new Audio("./music/Sia - I Forgive You.mp3"),
+    name: "Calm Down",
+    cover: "./media/calmdown.jpg",
+    audio: new Audio("./music/rema-selena-gomez-calm-down-320.mp3"),
     lyric:
-      "I felt the life, felt the life Slip out of me Black as night, as nightBlue as the sea, yeahI would have done anything Would have given everything for you I would have done anything Would have given everything for you I-I-I, I forgive you, you know not what you have done Oh, I-I, I forgive you, now it's time for me to move on Oh, I-I, I forgive you, you could not see right from wrong Oh, I, and I love you always in my heart, you'll live on You'll live on Good people sin when yearning's Unspoken-en, ooh You broke my heart, broke my heart But it's still beating Oh, I would have done anything Would have given everything for you I would have done anything Would have given everything for you I-I-I, I forgive you, you know not what you have done Oh, I-I, I forgive you, now it's time for me to move on Oh, I-I, I forgive you, you could not see right from wrong Oh, I, and I love you always in my heart, you'll live on You'll live on",
+      "Baby, calm down, calm down Girl, this your body e put my heart for lockdown For lockdown, oh, lockdown Girl, you sweet like Fanta, Fanta If I tell you say I love you no dey form yanga, oh, yanga No, tell me no, no, no, no, whoa-whoa, whoa-whoa Oh-oh-oh-oh-oh-oh-oh-oh-oh-oh-oh Baby, come gimme your lo-lo-lo-lo-lo-lo-lo-lo, whoa-whoa-whoa-whoa-whoa You got me like whoa-whoa-whoa-whoa-whoa-whoa-whoa-whoa-whoa Shawty, come gimme your lo-lo-lo-lo-lo-lo-lo-lo-whoa-whoa-whoa-whoa-whoa, hmm I see this fine girl for my party, she wear yellow Every other girl they dey do too much, but this girl mellow Naim I dey find situation I go use take tell am hello Finally I find way to talk to the girl but she no wan follow Who you come dey form for? (Mm-hm) Why you no wan comform? (Mm-hm) Then I start to feel her bum-bum (mm-hm) But she dey gimme small-small I know say she sabi pass that one (mm-hm) But she feeling insecure 'Cause her friends go dey gum her like chewing gum Go dey gum her like chewing gum Baby, calm down, calm down Girl, this your body e put my heart for lockdown For lockdown, oh, lockdown Girl, you sweet like Fanta, Fanta If I tell you say I love you no dey form yanga, oh, yanga No, tell me no, no, no, no, whoa-whoa, whoa-whoa Oh-oh-oh-oh-oh-oh-oh-oh-oh-oh-oh Baby, come gimme your lo-lo-lo-lo-lo-lo-lo-lo, whoa-whoa-whoa-whoa-whoa You got me like whoa-whoa-whoa-whoa-whoa-whoa-whoa-whoa-whoa Shawty, come gimme your lo-lo-lo-lo-lo-lo-lo-lo-whoa-whoa-whoa-whoa-whoa, hmm As I reach my house, I say make I rest small (make I rest small) As me I wake up na she dey my mind (na she dey my mind) Day one, day two, I no fit focus (I no fit focus) Na so me I call am, say make we link up (say make we link up) As I start to dey tell her how I feel, na my heart dey race Baby girl, if you leave me I no go love again Because e get many girls wey put my heart for pain Shebi you feel my pain? Baby, calm down, calm down Girl, this your body e put my heart for lockdown For lockdown, oh, lockdown Girl, you sweet like Fanta, Fanta If I tell you say I love you no dey form yanga, oh, yanga No, tell me no, no, no, no, whoa-whoa, whoa-whoa Oh-oh-oh-oh-oh-oh-oh-oh-oh-oh-oh Baby, come gimme your lo-lo-lo-lo-lo-lo-lo-lo, whoa-whoa-whoa-whoa-whoa You got me like whoa-whoa-whoa-whoa-whoa-whoa-whoa-whoa-whoa Shawty, come gimme your lo-lo-lo-lo-lo-lo-lo-lo-whoa-whoa-whoa-whoa-whoa, hmm",
+
     index: "0",
   },
   {
@@ -25,11 +26,12 @@ let musics = [
     index: "2",
   },
   {
-    name: "Calm Down",
-    cover: "./media/calmdown.jpg",
-    audio: new Audio("./music/rema-selena-gomez-calm-down-320.mp3"),
+    name: "I Forgive You",
+    cover: "./media/Sia - I Forgive You.jpg",
+    audio: new Audio("./music/Sia - I Forgive You.mp3"),
     lyric:
-      "Baby, calm down, calm down Girl, this your body e put my heart for lockdown For lockdown, oh, lockdown Girl, you sweet like Fanta, Fanta If I tell you say I love you no dey form yanga, oh, yanga No, tell me no, no, no, no, whoa-whoa, whoa-whoa Oh-oh-oh-oh-oh-oh-oh-oh-oh-oh-oh Baby, come gimme your lo-lo-lo-lo-lo-lo-lo-lo, whoa-whoa-whoa-whoa-whoa You got me like whoa-whoa-whoa-whoa-whoa-whoa-whoa-whoa-whoa Shawty, come gimme your lo-lo-lo-lo-lo-lo-lo-lo-whoa-whoa-whoa-whoa-whoa, hmm I see this fine girl for my party, she wear yellow Every other girl they dey do too much, but this girl mellow Naim I dey find situation I go use take tell am hello Finally I find way to talk to the girl but she no wan follow Who you come dey form for? (Mm-hm) Why you no wan comform? (Mm-hm) Then I start to feel her bum-bum (mm-hm) But she dey gimme small-small I know say she sabi pass that one (mm-hm) But she feeling insecure 'Cause her friends go dey gum her like chewing gum Go dey gum her like chewing gum Baby, calm down, calm down Girl, this your body e put my heart for lockdown For lockdown, oh, lockdown Girl, you sweet like Fanta, Fanta If I tell you say I love you no dey form yanga, oh, yanga No, tell me no, no, no, no, whoa-whoa, whoa-whoa Oh-oh-oh-oh-oh-oh-oh-oh-oh-oh-oh Baby, come gimme your lo-lo-lo-lo-lo-lo-lo-lo, whoa-whoa-whoa-whoa-whoa You got me like whoa-whoa-whoa-whoa-whoa-whoa-whoa-whoa-whoa Shawty, come gimme your lo-lo-lo-lo-lo-lo-lo-lo-whoa-whoa-whoa-whoa-whoa, hmm As I reach my house, I say make I rest small (make I rest small) As me I wake up na she dey my mind (na she dey my mind) Day one, day two, I no fit focus (I no fit focus) Na so me I call am, say make we link up (say make we link up) As I start to dey tell her how I feel, na my heart dey race Baby girl, if you leave me I no go love again Because e get many girls wey put my heart for pain Shebi you feel my pain? Baby, calm down, calm down Girl, this your body e put my heart for lockdown For lockdown, oh, lockdown Girl, you sweet like Fanta, Fanta If I tell you say I love you no dey form yanga, oh, yanga No, tell me no, no, no, no, whoa-whoa, whoa-whoa Oh-oh-oh-oh-oh-oh-oh-oh-oh-oh-oh Baby, come gimme your lo-lo-lo-lo-lo-lo-lo-lo, whoa-whoa-whoa-whoa-whoa You got me like whoa-whoa-whoa-whoa-whoa-whoa-whoa-whoa-whoa Shawty, come gimme your lo-lo-lo-lo-lo-lo-lo-lo-whoa-whoa-whoa-whoa-whoa, hmm",
+      "I felt the life, felt the life Slip out of me Black as night, as nightBlue as the sea, yeahI would have done anything Would have given everything for you I would have done anything Would have given everything for you I-I-I, I forgive you, you know not what you have done Oh, I-I, I forgive you, now it's time for me to move on Oh, I-I, I forgive you, you could not see right from wrong Oh, I, and I love you always in my heart, you'll live on You'll live on Good people sin when yearning's Unspoken-en, ooh You broke my heart, broke my heart But it's still beating Oh, I would have done anything Would have given everything for you I would have done anything Would have given everything for you I-I-I, I forgive you, you know not what you have done Oh, I-I, I forgive you, now it's time for me to move on Oh, I-I, I forgive you, you could not see right from wrong Oh, I, and I love you always in my heart, you'll live on You'll live on",
+
     index: "3",
   },
 ];
@@ -41,10 +43,13 @@ let nextBtn = document.querySelector("#next-btn");
 let preBtn = document.querySelector("#pre-btn");
 let musicCover = document.querySelector("#music-cover");
 let musicName = document.querySelector("#music-name");
+
 // set current music
 let currentMusic = 0;
+
 // extract audio
 let audio = musics[currentMusic].audio;
+
 // setting name music and img for cover
 musicCover.src = musics[currentMusic].cover;
 musicName.innerText = musics[currentMusic].name;
@@ -95,9 +100,10 @@ preBtn.addEventListener("click", () => {
 
 // when we want to change music firstly should pause after that become at the first of range bar then  our icon should be change and our animation should paused and should make current time 0 after that we say if our entrace is next do this unless do this
 function changeMusic(state) {
-  audio.pause();
   range.value = 0;
+
   playBtn.classList.replace("fa-pause", "fa-play");
+  audio.pause();
   musicCover.style.animationPlayState = "paused";
   audio.currentMusic = 0;
   console.log(audio.currentMusic);
@@ -111,6 +117,7 @@ function changeMusic(state) {
   }
 
   audio = musics[currentMusic].audio;
+
   // setting name music and img for cover
   musicCover.src = musics[currentMusic].cover;
   musicName.innerText = musics[currentMusic].name;
@@ -122,8 +129,10 @@ function changeMusic(state) {
     range.value = audio.currentTime;
   });
 }
+changeMusic();
 
 // what happen after end of music-i want to say play next music
+setInterval(endMusic, 1000);
 function endMusic() {
   let inputRange = document.getElementById("music-time");
   if (inputRange.value == Math.floor(audio.duration)) {
@@ -131,9 +140,8 @@ function endMusic() {
     changeMusic("next");
   }
 }
-setInterval(endMusic, 1000);
+
 // handel lyrics
-// document.getElementById("myButton").addEventListener("click", lyricFunc);
 function buttonText() {
   let button = document.getElementById("myButton");
   let h2 = document.querySelector("#lyric-title");
@@ -144,19 +152,6 @@ function buttonText() {
   button.innerText = "Lyrics";
 }
 buttonText();
-
-// toggle button for showing the lyrics
-// function lyricFunc() {
-//   if (x.style.display === "none") {
-//     x.style.display = "block";
-//     button.innerText = "Hide Lyric";
-//     h2.innerText = musics[currentMusic].name;
-//     p.innerText = musics[currentMusic].lyric;
-//   } else {
-//     x.style.display = "none";
-//     button.innerText = "Show Lyric";
-//   }
-// }
 
 // handel playlist section
 let saveCur = currentMusic;
@@ -187,10 +182,12 @@ for (let i = 0; i < musics.length; i++) {
   vari6.appendChild(vari5);
   vari3.appendChild(vari4);
 }
+
 document.getElementById("playList").addEventListener("click", FuncH);
 
 function FuncH(event) {
-  console.log(event.target.className);
+
+
   if (event.target.id === "playListDiv") {
     currentMusic = event.target.className;
     audio.pause();
@@ -198,31 +195,26 @@ function FuncH(event) {
     playBtn.classList.replace("fa-pause", "fa-play");
     let change0 =
       document.querySelectorAll("#titleMusicName")[musics[currentMusic].index];
-    console.log(
-      document.querySelectorAll("#titleMusicName")[musics[currentMusic].index]
-    );
+
     change0.parentElement.className = "played";
     audio = musics[musics[currentMusic].index].audio;
-    // setting name music and img for cover
     musicCover.src = musics[currentMusic].cover;
     musicName.innerText = musics[currentMusic].name;
 
-    // Has music loaded?
     audio.addEventListener("canplay", () => {
       range.max = audio.duration;
       console.log(audio.duration);
     });
 
-    // the range bar can trck music
     audio.addEventListener("timeupdate", () => {
       range.value = audio.currentTime;
     });
 
-    // when user click on range bar the music go in that time
     range.addEventListener("input", () => {
       audio.currentTime = range.value;
     });
   }
+  audio.currentTime = "0";
   buttonText();
   currentMusic = saveCur;
 }
