@@ -82,13 +82,13 @@ playBtn.addEventListener("click", () => {
 // next and previous music
 nextBtn.addEventListener("click", () => {
   // define function if we give next will go next music
-  changeMusic("next");
-  lyricFunc();
+  changeMusic("next")
+  buttonText();
 });
 preBtn.addEventListener("click", () => {
   // define function if we give next will go previous music
   changeMusic("pre");
-  lyricFunc();
+  buttonText();
 });
 
 // when we want to change music firstly should pause after that become at the first of range bar then  our icon should be change and our animation should paused and should make current time 0 after that we say if our entrace is next do this unless do this
@@ -98,8 +98,9 @@ function changeMusic(state) {
   playBtn.classList.replace("fa-pause", "fa-play");
   musicCover.style.animationPlayState = "paused";
   audio.currentMusic = 0;
+  console.log(audio.currentMusic);
 
-  if (state == "next") {
+  if (state === "next") {
     if (currentMusic == musics.length - 1) currentMusic = 0;
     else currentMusic += 1;
   } else {
@@ -130,28 +131,30 @@ function endMusic() {
 }
 setInterval(endMusic, 1000);
 // handel lyrics
-document.getElementById("myButton").addEventListener("click", lyricFunc);
-let button = document.getElementById("myButton");
-let x = document.getElementById("myDiv");
-let h2 = document.querySelector("#lyric-title");
-let p = document.querySelector("#lyric");
-console.log(currentMusic);
-h2.innerText = musics[currentMusic].name;
-p.innerText = musics[currentMusic].lyric;
-button.innerText = "Hide Lyric";
+// document.getElementById("myButton").addEventListener("click", lyricFunc);
+function buttonText() {
+  let button = document.getElementById("myButton");
+  let h2 = document.querySelector("#lyric-title");
+  let p = document.querySelector("#lyric");
+  console.log(currentMusic);
+  h2.innerText = musics[currentMusic].name;
+  p.innerText = musics[currentMusic].lyric;
+  button.innerText = "Lyrics";
+}
+buttonText()
 
 // toggle button for showing the lyrics
-function lyricFunc() {
-  if (x.style.display === "none") {
-    x.style.display = "block";
-    button.innerText = "Hide Lyric";
-    h2.innerText = musics[currentMusic].name;
-    p.innerText = musics[currentMusic].lyric;
-  } else {
-    x.style.display = "none";
-    button.innerText = "Show Lyric";
-  }
-}
+// function lyricFunc() {
+//   if (x.style.display === "none") {
+//     x.style.display = "block";
+//     button.innerText = "Hide Lyric";
+//     h2.innerText = musics[currentMusic].name;
+//     p.innerText = musics[currentMusic].lyric;
+//   } else {
+//     x.style.display = "none";
+//     button.innerText = "Show Lyric";
+//   }
+// }
 
 // handel playlist section
 let saveCur = currentMusic;
@@ -218,13 +221,6 @@ function FuncH(event) {
       audio.currentTime = range.value;
     });
   }
-  let button = document.getElementById("myButton");
-  let x = document.getElementById("myDiv");
-  let h2 = document.querySelector("#lyric-title");
-  let p = document.querySelector("#lyric");
-  console.log(currentMusic);
-  h2.innerText = musics[currentMusic].name;
-  p.innerText = musics[currentMusic].lyric;
-  button.innerText = "Show Lyric";
-  currentMusic=saveCur
+  buttonText();
+  currentMusic = saveCur;
 }
