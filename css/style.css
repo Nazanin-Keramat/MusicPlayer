@@ -95,9 +95,7 @@ nav {
   color: white;
   cursor: pointer;
 }
-#btns {
-  user-select: none;
-}
+
 button {
   width: 100px;
   height: 40px;

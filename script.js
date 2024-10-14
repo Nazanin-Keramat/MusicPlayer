@@ -225,5 +225,6 @@ function FuncH(event) {
   console.log(currentMusic);
   h2.innerText = musics[currentMusic].name;
   p.innerText = musics[currentMusic].lyric;
-  button.innerText = "Hide Lyric";
+  button.innerText = "Show Lyric";
+  currentMusic=saveCur
 }
